@@ -9,7 +9,7 @@ public class apples{
         firstNum = sunny.nextDouble();
         System.out.println("Enter the second number");
         secondNum = sunny.nextDouble();
-        answer = firstNum + secondNum;
-        System.out.println(answer);
+        answer = firstNum * secondNum;
+        System.out.println("The product of "+ firstNum +" and "+ secondNum +" is = "+ answer);
     }
 }
